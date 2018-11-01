@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saper</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="mainScene">
+   <table id="matrix"></table>
+</div>
+
+<svg width="1000" height="1000" id="svgid"></svg>
+
+<canvas id = "canvas" width="1000" height="1000"></canvas>
+<audio loop autoplay>
+    <source src="assets/sounds/main.mp3" type="audio/mp3" />
+</audio>
+
+<audio class="jump">
+    <source src="assets/sounds/jump.mp3" type="audio/mp3" />
+</audio>
+<script src="js/saperModel.js"></script>
+<script src="js/saperViewSVG.js"></script>
+<script src="js/saperController.js"></script>
+</body>
+</html>
